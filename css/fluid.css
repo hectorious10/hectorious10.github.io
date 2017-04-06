@@ -1,0 +1,262 @@
+body {
+    font-size: 16px;
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #777;
+}
+h3, h4 {
+    margin: 20px 0 30px 0;
+    letter-spacing: 3px;
+    line-height: 1em;
+    font-size: 20px;
+    color: #111;
+}
+.container {
+    padding: 60px 60px;
+}
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    /*opacity: 0.7;*/
+    /*-webkit-filter: grayscale(20%);
+    filter: grayscale(20%);*/
+}
+.person:hover {
+    border-color: #f1f1f1;
+}
+.contact-icons li{
+    display: inline;
+    padding: 30px;
+}
+
+
+/* Carousel base class */
+.carousel {
+    height: 500px;
+    /*margin-bottom: 60px; */
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+    height: 500px;
+
+    background-color: #777;
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
+.bg-1 {
+    background: #2d2d30;
+    color: #bdbdbd;
+}
+.bg-1 h3 {color: #fff;}
+.bg-1 p {font-style: italic;}
+.list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+.list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#about h3{
+    font-size: 24px;
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    padding-top: 5px;
+}
+#skills h3{
+    font-size: 24px;
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+#contact h3{
+    font-size: 24px;
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+.thumbnail {
+    padding: 0 0 15px 0;
+    /*border: 4px solid #852B3E;*/
+    border-radius: 2px;
+    /*background-color: #F1E9DB;*/
+    /*background-color: #2D2D30;*/
+    padding-top: 10px;
+}
+.thumbnail p {
+    margin-top: 8px;
+    font-size: 18px;
+    color: white;
+    opacity: 1;
+    color: #555;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+.btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+.modal-header, h4, .close {
+    background-color: #333;
+    color: #fff !important;
+    text-align: center;
+    font-size: 30px;
+}
+.modal-header, .modal-body {
+    padding: 40px 50px;
+}
+.nav-tabs li a {
+    color: #777;
+}
+#googleMap {
+    width: 100%;
+    height: 400px;
+    -webkit-filter: sepia(25%);
+    filter: sepia(25%);
+
+}
+.overlay {
+    background:transparent;
+    position:relative;
+    pointer-events: none;
+}
+
+#map{
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+}
+.navbar {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    /*font-size: 40px;*/
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
+}
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+.open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
+}
+.dropdown-menu li a {
+    color: #000 !important;
+}
+.dropdown-menu li a:hover {
+    background-color: red !important;
+}
+
+
+footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+}
+footer a {
+    color: #f5f5f5;
+}
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+}
+.form-control {
+    border-radius: 0;
+}
+textarea {
+    resize: none;
+}
+
+.author{
+    font-size: 0.6em;
+}
+
+.modal-body{
+    min-width: 510px;
+}
+
+.modal-body p {
+    display: inline-block;
+    vertical-align: top;
+
+    /*padding-left: 35%;*/
+    /*width: 49%;*/
+}
+
+.centerMe{
+    text-align: center;
+}
+
+.gif{
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    /*padding-left: 10%;*/
+}
+.text{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding-top: 10%;
+    width: 49%;
+    margin-left: 3px;
+}
+.text2{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    /*padding-top: 10%;*/
+    width: 49%;
+    margin-left: 3px;
+}
+
+.boldRodney{
+    font-weight: 500;
+}
+
+.intro p{
+    text-align: justify;
+    max-width: 600px;
+}
